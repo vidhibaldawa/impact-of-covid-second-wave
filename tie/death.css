@@ -1,0 +1,148 @@
+header{
+    background-color:black;
+    color:white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px;
+    box-sizing: border-box;
+
+    
+}
+.back{
+    background-color:rgb(216, 213, 213);
+    }
+.back p{
+    color:  #3c4245;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    color: black;
+}
+
+.flex-child {
+    flex: 1 30px;
+    margin-right: 50px;
+    background:rgb(255, 255, 255);
+     text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+}  
+
+.flex-child:first-child {
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+h2{
+    margin-left: 100px;
+    margin-right: 100px; 
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    margin:10px;
+    padding:10px;
+    font-size:20px;
+    
+}
+.video{
+  text-align: center;
+    display: block;
+  
+}
+.courtesy{
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.4;
+}
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+.image {
+     display:block;
+    width: 100%;
+    height: 500px;
+    
+  }
+  
+ .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#008CBA;
+    
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .text {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  footer{
+    background-color:black;
+   color:white;
+    border:300px;
+    border-radius: 10px;
+    height:120px;
+    flex-wrap: wrap;
+  }
+  .linkname{
+    color:white;
+    font-size: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+   }  
+  .refer p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left:"120px";
+   text-align: center;
+   margin-top: 10px;
+  }
+  a{
+      font-size: 20px;
+      color: rgb(34, 118, 187);
+      margin-left: 20px;
+  }
+  
+  .box-a{
+      background-color: white;
+  }
+   .cursor:hover  {
+      animation-name:fadebounce ;
+      animation-duration: 2s;
+ 
+  }
+  @keyframes fadebounce
+   {
+      30%{
+          transform: translateX(40px);
+      }
+  }
+  @media(max-width:800px) {
+      .linkname{
+          text-align: left;
+          margin-left: 0px;
+      }
+      
+  }
